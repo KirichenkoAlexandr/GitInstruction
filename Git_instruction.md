@@ -17,8 +17,18 @@ git config --global user.email ваша почта@example.com
 ## 4. Инициализация локального репозитория
 Для этого необходимо выбрать(создать) папку в проводнике. В терминале выполнить команду `git init`
 ## 5 . Проверка статуса о текущем состояние
-Выполняем команду `git status`
+Выполняем команду `git status` в терминале появится надпись 
+```$ git status
+On branch master
+nothing to commit, working tree clean
+```
 ## 6. Добавление файла
-Для этого необходимо в проводнике (вкладка файл) создать (выбрать) файл, а в терминале выполнить команду `git add "name file"`  
+Для этого необходимо в проводнике (вкладка файл) создать (выбрать) файл, а в терминале выполнить команду `git add "name file"` . И при проверке статуса будет:
+```$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   "name file"
+```
 ## 7. Добавление коммита
 В терминале выполняем команду `git commit -m "text commit"`
