@@ -75,4 +75,9 @@ git branch -d <name branch>
 ```
 Примечание: удалить ветку можно только тогда когда ты не находишся в ней.
 
-Если ветка не слита с необходимой веткой при удаление появится предупреждение
+Если ветка не слита с необходимой веткой при удаление появится предупреждение 
+```$ git branch -d name branch
+error: The branch 'name branch' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D name branch'.
+```
+Где команда ***git branch -D name branch*** принудительно удалит ветку. ***внимание все неслитые данные будут удалены*** 
