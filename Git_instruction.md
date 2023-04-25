@@ -52,4 +52,5 @@ $ git commit -m "text commit"
 По умолчанию имя  ветки **master**.
 ```
 git branch <имя новой ветки>
+``
 
