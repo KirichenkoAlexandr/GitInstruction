@@ -72,6 +72,8 @@ git checkout "name branch"
 Для того чтобы, удалить ветку не обходимо выполнить команду
 ```
 git branch -d <name branch>
+или
+git branch --delete <name branch>
 ```
 Примечание: удалить ветку можно только тогда когда ты не находишся в ней.
 
