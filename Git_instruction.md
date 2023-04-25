@@ -86,4 +86,11 @@ git branch --delete <name branch>
 error: The branch 'name branch' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D name branch'.
 ```
-Где команда ***git branch -D name branch*** принудительно удалит ветку. ***внимание все неслитые данные будут удалены*** 
+Где команда ***git branch -D name branch*** принудительно удалит ветку. ***ВНИМАНИЕ все неслитые данные будут удалены*** 
+
+## 11. Сливание веток
+Для того чтобы слить ветку необходимо выполнить команду : 
+```
+git merge "название ветки"
+```
+ и закомитить сливание.
