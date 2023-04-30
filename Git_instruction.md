@@ -131,3 +131,22 @@ To https://github.com/KirichenkoAlexandr/name.git
    6. При необходимости в браузере есть встроенный редактор в котором можно редактировать информацию вашего проэкта для этого необходимо зайти в необходимый файл и выбрать в праволм верхнем углу иконку `edit this file` ![icon](1234.jpeg), и так же после редактирования файлла оставить *commit* при помощи иконки ![icon](123.jpeg)
    
    7. Для того чтобы эти изменения появилися в вашем локальном репозитории необходимо выполнить команду в терминале *git pull*
+   после чего в терминале появится 
+   ```
+   $ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 713 bytes | 237.00 KiB/s, done.
+From https://github.com/KirichenkoAlexandr/name
+   5fb0bbb..712a1a1  main       -> origin/main
+Updating 5fb0bbb..712a1a1
+Fast-forward
+ START.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ ```
+ что обозначает удачное скачивание репозитория.
+ 
+ ***Примечание***: конфилты решаются также как и ранее.
+ 
