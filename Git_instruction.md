@@ -157,5 +157,17 @@ Fast-forward
  после чего в терминале произойдет загрузка. И в проводнике появится копия чужого репозитория.
  3. Дя того чтобы начать работать в этом репозитории необходимо в него перейти при помощи команды *cd name repository*  ##ОБЯЗАТЕЛЬНО## необходимо создать новую ветку и перейти в нее. Далее можно вносить изменения, и добавлять коммиты.
 
- 4. После того как внесли изменения  отправляем в удаленный репозиторий при помощи команды *git push*
+ 4. После того как внесли изменения  отправляем в удаленный репозиторий при помощи команды *git push*. В случае если нет такой ветки в этом репозитории появится надпись
+ ```
+ git push
+fatal: The current branch new1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin new1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+```
+тогда выполняем команду которую нам предлогает Git: *git push --set-upstream origin (имя ветки которую Вы создали)*
+
 
