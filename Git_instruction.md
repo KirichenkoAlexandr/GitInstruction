@@ -169,5 +169,24 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
 тогда выполняем команду которую нам предлогает Git: *git push --set-upstream origin (имя ветки которую Вы создали)*
+после чего в терминале появится надпись 
+```
+$ git push --set-upstream origin new1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 283 bytes | 283.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'new1' on GitHub by visiting:
+remote:      https://github.com/KirichenkoAlexandr/SCV_Git_PR/pull/new/new1
+remote:
+To https://github.com/KirichenkoAlexandr/SCV_Git_PR.git
+ * [new branch]      new1 -> new1
+branch 'new1' set up to track 'origin/new1'.
+```
+что обозначает удачную загрузку. После этого в вашем профиле в этом репозитории появятся ваши изменения, если их не видно то не обходимо в кнопке ![icon](123456.jpeg) выбрать новую ветку и увидить все свои изменения. и жмем кнопку ![icon](1234567.jpeg) . после чего переходит на следующюю страницу и там жмем ![icon](12345678.jpeg). Вуаля pull request выполнен. Автор проекта увидит ваши дополнения (изменения).
+
 
 
